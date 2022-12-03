@@ -1,0 +1,54 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1669958311512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669958319088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,10 @@\n   \"description\": \"Cab booking application\",\n   \"main\": \"index.ts\",\n   \"scripts\": {\n     \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n+    \"start\": \"webpack serve --open --config webpack.dev.js\",\n+    \"build\": \"cross-env NODE_ENV=production webpack --config webpack.prod.js\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/pradeepi2i/cab.git\"\n"
+                },
+                {
+                    "date": 1669960091207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   \"description\": \"Cab booking application\",\n   \"main\": \"index.ts\",\n   \"scripts\": {\n     \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n-    \"start\": \"webpack serve --open --config webpack.dev.js\",\n+    \"start\": \"webpack serve --open --config webpack.de.js\",\n     \"build\": \"cross-env NODE_ENV=production webpack --config webpack.prod.js\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n"
+                },
+                {
+                    "date": 1669960096734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n   \"description\": \"Cab booking application\",\n   \"main\": \"index.ts\",\n   \"scripts\": {\n     \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n-    \"start\": \"webpack serve --open --config webpack.de.js\",\n-    \"build\": \"cross-env NODE_ENV=production webpack --config webpack.prod.js\"\n+    \"start\": \"webpack serve --open --config webpack.config.js\",\n+    \"build\": \"cross-env NODE_ENV=production webpack --config webpack.c.js\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/pradeepi2i/cab.git\"\n"
+                },
+                {
+                    "date": 1669962139898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   \"main\": \"index.ts\",\n   \"scripts\": {\n     \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n     \"start\": \"webpack serve --open --config webpack.config.js\",\n-    \"build\": \"cross-env NODE_ENV=production webpack --config webpack.c.js\"\n+    \"build\": \"cross-envNODE_ENV=production webpack --config webpack.config.js\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/pradeepi2i/cab.git\"\n@@ -31,14 +31,18 @@\n   },\n   \"homepage\": \"https://github.com/pradeepi2i/cab#readme\",\n   \"dependencies\": {\n     \"css-loader\": \"^6.7.2\",\n+    \"file-loader\": \"^6.2.0\",\n+    \"html-webpack-plugin\": \"^5.5.0\",\n+    \"image-webpack-loader\": \"^8.1.0\",\n     \"mini-css-extract-plugin\": \"^2.7.1\",\n     \"node-sass\": \"^8.0.0\",\n     \"sass-loader\": \"^13.2.0\",\n     \"style-loader\": \"^3.3.1\",\n     \"ts-loader\": \"^9.4.2\",\n     \"typescript\": \"^4.9.3\",\n+    \"url-loader\": \"^4.1.1\",\n     \"webpack\": \"^5.75.0\",\n     \"webpack-cli\": \"^5.0.0\",\n     \"webpack-dev-server\": \"^4.11.1\"\n   }\n"
+                },
+                {
+                    "date": 1669962598807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   \"main\": \"index.ts\",\n   \"scripts\": {\n     \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n     \"start\": \"webpack serve --open --config webpack.config.js\",\n-    \"build\": \"cross-envNODE_ENV=production webpack --config webpack.config.js\"\n+    \"build\": \"NODE_ENV=production webpack --config webpack.config.js\"\n   },\n   \"repository\": {\n     \"type\": \"git\",\n     \"url\": \"git+https://github.com/pradeepi2i/cab.git\"\n@@ -29,21 +29,28 @@\n   \"bugs\": {\n     \"url\": \"https://github.com/pradeepi2i/cab/issues\"\n   },\n   \"homepage\": \"https://github.com/pradeepi2i/cab#readme\",\n-  \"dependencies\": {\n-    \"css-loader\": \"^6.7.2\",\n-    \"file-loader\": \"^6.2.0\",\n+  \"devDependencies\": {\n+    \"@types/jest\": \"^29.0.3\",\n+    \"@typescript-eslint/eslint-plugin\": \"^5.37.0\",\n+    \"@typescript-eslint/parser\": \"^5.37.0\",\n+    \"clean-webpack-plugin\": \"^4.0.0\",\n+    \"copy-webpack-plugin\": \"^11.0.0\",\n+    \"css-loader\": \"^6.7.1\",\n+    \"eslint\": \"^8.23.1\",\n+    \"eslint-webpack-plugin\": \"^3.2.0\",\n+    \"fork-ts-checker-webpack-plugin\": \"^7.2.13\",\n     \"html-webpack-plugin\": \"^5.5.0\",\n-    \"image-webpack-loader\": \"^8.1.0\",\n-    \"mini-css-extract-plugin\": \"^2.7.1\",\n+    \"mini-css-extract-plugin\": \"^2.6.1\",\n     \"node-sass\": \"^8.0.0\",\n+    \"postcss-loader\": \"^7.0.2\",\n     \"sass-loader\": \"^13.2.0\",\n+    \"ts-loader\": \"^9.4.2\",\n     \"style-loader\": \"^3.3.1\",\n-    \"ts-loader\": \"^9.4.2\",\n-    \"typescript\": \"^4.9.3\",\n-    \"url-loader\": \"^4.1.1\",\n-    \"webpack\": \"^5.75.0\",\n-    \"webpack-cli\": \"^5.0.0\",\n-    \"webpack-dev-server\": \"^4.11.1\"\n+    \"ts-jest\": \"^29.0.1\",\n+    \"typescript\": \"^4.8.3\",\n+    \"webpack\": \"^5.74.0\",\n+    \"webpack-cli\": \"^4.10.0\",\n+    \"webpack-dev-server\": \"^4.11.0\"\n   }\n }\n"
+                },
+                {
+                    "date": 1669962765905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\n   \"name\": \"cab\",\n+  \n   \"version\": \"1.0.0\",\n   \"description\": \"Cab booking application\",\n   \"main\": \"index.ts\",\n   \"scripts\": {\n"
+                },
+                {
+                    "date": 1669964170313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,37 +1,21 @@\n {\n-  \"name\": \"cab\",\n-  \n-  \"version\": \"1.0.0\",\n-  \"description\": \"Cab booking application\",\n-  \"main\": \"index.ts\",\n+  \"name\": \"webpack-seed\",\n+  \"sideEffects\": [\n+    \"**/*.css\",\n+    \"**/*.scss\"\n+  ],\n+  \"version\": \"1.0.2\",\n+  \"description\": \"\",\n+  \"main\": \"index.js\",\n   \"scripts\": {\n-    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n-    \"start\": \"webpack serve --open --config webpack.config.js\",\n-    \"build\": \"NODE_ENV=production webpack --config webpack.config.js\"\n+    \"start\": \"webpack serve --open --config webpack.dev.js\",\n+    \"build\": \"cross-envNODE_ENV=production webpack --config webpack.prod.js\",\n+    \"test\": \"npx jest\"\n   },\n-  \"repository\": {\n-    \"type\": \"git\",\n-    \"url\": \"git+https://github.com/pradeepi2i/cab.git\"\n-  },\n-  \"keywords\": [\n-    \"A\",\n-    \"convinient\",\n-    \"cab\",\n-    \"booking\",\n-    \"application\",\n-    \"for\",\n-    \"day\",\n-    \"to\",\n-    \"day\",\n-    \"work\"\n-  ],\n-  \"author\": \"Pradeep\",\n+  \"keywords\": [],\n+  \"author\": \"\",\n   \"license\": \"ISC\",\n-  \"bugs\": {\n-    \"url\": \"https://github.com/pradeepi2i/cab/issues\"\n-  },\n-  \"homepage\": \"https://github.com/pradeepi2i/cab#readme\",\n   \"devDependencies\": {\n     \"@types/jest\": \"^29.0.3\",\n     \"@typescript-eslint/eslint-plugin\": \"^5.37.0\",\n     \"@typescript-eslint/parser\": \"^5.37.0\",\n"
+                },
+                {
+                    "date": 1669964501152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n   \"version\": \"1.0.2\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"start\": \"webpack serve --open --config webpack.dev.js\",\n-    \"build\": \"cross-envNODE_ENV=production webpack --config webpack.prod.js\",\n+    \"start\": \"webpack serve --open --config webpack.c.js\",\n+    \"build\": \"NODE_ENV=production webpack --config webpack.prod.js\",\n     \"test\": \"npx jest\"\n   },\n   \"keywords\": [],\n   \"author\": \"\",\n"
+                },
+                {
+                    "date": 1669964501606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   \"version\": \"1.0.2\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"start\": \"webpack serve --open --config webpack.commo.js\",\n+    \"start\": \"webpack serve --open --config webpack.common.js\",\n     \"build\": \"NODE_ENV=production webpack --config webpack.prod.js\",\n     \"test\": \"npx jest\"\n   },\n   \"keywords\": [],\n"
+                }
+            ],
+            "date": 1669958311512,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"cab\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Cab booking application\",\n  \"main\": \"index.ts\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/pradeepi2i/cab.git\"\n  },\n  \"keywords\": [\n    \"A\",\n    \"convinient\",\n    \"cab\",\n    \"booking\",\n    \"application\",\n    \"for\",\n    \"day\",\n    \"to\",\n    \"day\",\n    \"work\"\n  ],\n  \"author\": \"Pradeep\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/pradeepi2i/cab/issues\"\n  },\n  \"homepage\": \"https://github.com/pradeepi2i/cab#readme\",\n  \"dependencies\": {\n    \"css-loader\": \"^6.7.2\",\n    \"mini-css-extract-plugin\": \"^2.7.1\",\n    \"node-sass\": \"^8.0.0\",\n    \"sass-loader\": \"^13.2.0\",\n    \"style-loader\": \"^3.3.1\",\n    \"ts-loader\": \"^9.4.2\",\n    \"typescript\": \"^4.9.3\",\n    \"webpack\": \"^5.75.0\",\n    \"webpack-cli\": \"^5.0.0\",\n    \"webpack-dev-server\": \"^4.11.1\"\n  }\n}\n"
+        }
+    ]
+}

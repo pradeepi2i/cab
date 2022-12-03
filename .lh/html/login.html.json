@@ -1,0 +1,30 @@
+{
+    "sourceFile": "html/login.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1669957704701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669957715485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,12 @@\n-!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <title></title>\n+</head>\n+<body>\n+    \n+</body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669957722369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,11 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title></title>\n+    <title>HelloCabs</title>\n </head>\n <body>\n     \n+    \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669957740935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>HelloCabs</title>\n </head>\n <body>\n+    <div class=\"header\"></div>\n     \n-    \n </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1669957704701,
+            "name": "Commit-0",
+            "content": "!"
+        }
+    ]
+}

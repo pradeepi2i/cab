@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/HeaderComponents.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1670070768211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670070777685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n-    export class HomeComponent {\n-        homeContainer: Element;\n+    export class HeaderComponent {\n+        hea: Element;\n         constructor(container:Element) {\n             this.homeContainer = container;      \n             this.renderHomePage();      \n         }\n"
+                },
+                {
+                    "date": 1670070786482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n     export class HeaderComponent {\n         header: Element;\n         constructor(container:Element) {\n-            this.he = container;      \n+            this.heade = container;      \n             this.renderHomePage();      \n         }\n \n         renderHomePage() {\n"
+                },
+                {
+                    "date": 1670070786803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n     export class HeaderComponent {\n         header: Element;\n         constructor(container:Element) {\n-            this.heade = container;      \n+            this.header = container;      \n             this.renderHomePage();      \n         }\n \n         renderHomePage() {\n"
+                }
+            ],
+            "date": 1670070768211,
+            "name": "Commit-0",
+            "content": "\n    export class HomeComponent {\n        homeContainer: Element;\n        constructor(container:Element) {\n            this.homeContainer = container;      \n            this.renderHomePage();      \n        }\n\n        renderHomePage() {\n            this.homeContainer.innerHTML = `\n            <div class=\"container\">\n                <div class=\"navbar\">\n                    <div class=\"navbar-left\">\n                        <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                        <h1>HelloCabs</h1>\n                    </div>\n                    <div class=\"navbar-center\">\n        \n                    </div>\n                    <div class=\"navbar-right\">\n                        <h4>Home</h4>\n                        <h4>About</h4>\n                        <h4>Contact</h4>\n                        <h4>Profile</h4>\n                    </div>\n                </div>\n        \n                <div class=\"book-ride\">\n                    <button class=\"primary-btn\">Book Ride</button>\n                </div>\n        \n            </div>`\n\n        }\n\n\n\n    }"
+        }
+    ]
+}
