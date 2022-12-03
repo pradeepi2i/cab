@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1669984804308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669984810911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import './styles.scss';\n+/import './styles.scss';\n /* import { Component } from './components/component';\n \n const component = new Component();\n component.hello(); */\n"
+                },
+                {
+                    "date": 1669984878058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-/import './styles.scss';\n+import './styles.scss';\n /* import { Component } from './components/component';\n \n const component = new Component();\n component.hello(); */\n+\n+c\n"
+                },
+                {
+                    "date": 1669984878618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-c\n+cons\n"
+                },
+                {
+                    "date": 1669984884946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-cons\n+const s\n"
+                },
+                {
+                    "date": 1669984890135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-const s\n+const submit = docu\n"
+                },
+                {
+                    "date": 1669984890885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-const submit = docum\n+const submit = documen\n"
+                },
+                {
+                    "date": 1669984896814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-const submit = document.for\n+const submit = document.form\n"
+                }
+            ],
+            "date": 1669984804308,
+            "name": "Commit-0",
+            "content": "import './styles.scss';\n/* import { Component } from './components/component';\n\nconst component = new Component();\ncomponent.hello(); */\n"
+        }
+    ]
+}

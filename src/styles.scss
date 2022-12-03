@@ -1,0 +1,52 @@
+@import 'variable';
+@import 'root';
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    @include display-type(flex, space-between, center);
+    height: 70px;
+    padding: 5px;
+    color: $text-color1;
+
+    &-right {
+        @include display-type(flex, space-evenly);
+        width: 30%;
+    }
+
+    h1 {
+        margin-inline: 10px;
+    }
+
+    &-left {
+        height: 70px;
+        @include display-type(flex, flex-start);
+
+        #taxiLogo {
+            width: 70px;
+        }
+    }
+}
+
+.container {
+    background-image: url(./assets/taxi-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    opacity: .9;
+    @include display-type(flex, space-between, "", "", column);
+}
+
+.book-ride {
+    @include display-type(flex, center);
+
+    .primary-btn {
+        @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     
+        color:$text-color1;
+
+        &:hover {
+            @include box-shadow;
+        }
+    }
+}
