@@ -1,0 +1,22 @@
+#home {
+    background-image: url(../assets/taxi-bg.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    opacity: .9;
+    @include display-type(flex, space-between, "", "", column);
+}
+
+
+.book-ride {
+    @include display-type(flex, center);
+
+    .primary-btn {
+        @include primary-btn(10px 35px, 25px 0px, 40px, $xx-lg, #ffc107, none);     
+        color:$text-color1;
+
+        &:hover {
+            font-size: $xxx-lg;
+            @include box-shadow(10px 10px 14px 6px rgba(5, 5, 5, 1));
+        }
+    }
+}

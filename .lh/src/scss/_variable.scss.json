@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/scss/_variable.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1670237633402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670237640763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n $text-color1:#fff;\n+$f\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670237647064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $text-color1:#fff;\n-$f\n\\ No newline at end of file\n+$fo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670237652726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $text-color1:#fff;\n-$fo\n\\ No newline at end of file\n+$font sm\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670237685539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $text-color1:#fff;\n-$font sm\n\\ No newline at end of file\n+/* $font-sm: */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670239453766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $text-color1:#fff;\n-/* $font-sm: */\n\\ No newline at end of file\n+/*  */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670239459450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $text-color1:#fff;\n-$smal\n\\ No newline at end of file\n+$small\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670239473222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $text-color1:#fff;\n-$sm:13p\n\\ No newline at end of file\n+$sm:13px\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670237633402,
+            "name": "Commit-0",
+            "content": "$text-color1:#fff;\n"
+        }
+    ]
+}

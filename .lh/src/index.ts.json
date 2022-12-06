@@ -3,44 +3,120 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 26,
             "patches": [
                 {
-                    "date": 1669984804308,
+                    "date": 1670234141162,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
                 },
                 {
-                    "date": 1669984810911,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import './styles.scss';\n+/import './styles.scss';\n /* import { Component } from './components/component';\n \n const component = new Component();\n component.hello(); */\n"
+                    "date": 1670234154726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n \n import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n-/* const loginContainer:Element = document.querySelector(\"#login\");\n+const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-} */\n+}\n \n \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
                 },
                 {
-                    "date": 1669984878058,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-/import './styles.scss';\n+import './styles.scss';\n /* import { Component } from './components/component';\n \n const component = new Component();\n component.hello(); */\n+\n+c\n"
+                    "date": 1670234586942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,13 @@\n     new Login(loginContainer);\n }\n \n \n-const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n+/* const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-}\n+} */\n \n \n \n \n"
                 },
                 {
-                    "date": 1669984878618,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-c\n+cons\n"
+                    "date": 1670234595258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import './scss/styles.scss';\n \n-import { Home } from './components/Home';\n+/import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n"
                 },
                 {
-                    "date": 1669984884946,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-cons\n+const s\n"
+                    "date": 1670234595586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import './scss/styles.scss';\n \n-/import { Home } from './components/Home';\n+//import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n"
                 },
                 {
-                    "date": 1669984890135,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-const s\n+const submit = docu\n"
+                    "date": 1670234605416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,13 @@\n     new Login(loginContainer);\n }\n \n \n-/* const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n+const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-} */\n+}\n \n \n \n \n"
                 },
                 {
-                    "date": 1669984890885,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-const submit = docum\n+const submit = documen\n"
+                    "date": 1670234611414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import './scss/styles.scss';\n \n-//import { Home } from './components/Home';\n+/import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n"
                 },
                 {
-                    "date": 1669984896814,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \n const component = new Component();\n component.hello(); */\n \n-const submit = document.for\n+const submit = document.form\n"
+                    "date": 1670234628498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import './scss/styles.scss';\n \n-/import { Home } from './components/Home';\n+import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n-const loginContainer:Element = document.querySelector(\"#login\");\n+/* const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-}\n+} */\n \n \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
+                },
+                {
+                    "date": 1670234637227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n \n import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n-/* const loginContainer:Element = document.querySelector(\"#login\");\n+const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-} */\n+}\n \n \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
+                },
+                {
+                    "date": 1670234651882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,14 +7,14 @@\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n-\n+/* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-}\n+} */\n \n \n \n \n"
+                },
+                {
+                    "date": 1670234657721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import './scss/styles.scss';\n \n-import { Home } from './components/Home';\n+/import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n"
+                },
+                {
+                    "date": 1670234658130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import './scss/styles.scss';\n \n-/import { Home } from './components/Home';\n+//import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n"
+                },
+                {
+                    "date": 1670242000374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,14 +7,14 @@\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n-/* \n+\n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-} */\n+}\n \n \n \n \n"
+                },
+                {
+                    "date": 1670242008529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import './scss/styles.scss';\n \n-//import { Home } from './components/Home';\n+/import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n"
+                },
+                {
+                    "date": 1670242064591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,14 +7,14 @@\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n-\n+/* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-}\n+} */\n \n \n \n \n"
+                },
+                {
+                    "date": 1670242094047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,20 @@\n import './scss/styles.scss';\n \n-/import { Home } from './components/Home';\n+import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n-/* \n+\n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-} */\n+}\n \n \n \n \n"
+                },
+                {
+                    "date": 1670242101571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n \n import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n-const loginContainer:Element = document.querySelector(\"#login\");\n+/* const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-}\n+} */\n \n \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
+                },
+                {
+                    "date": 1670242113396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n \n import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n-/* const loginContainer:Element = document.querySelector(\"#login\");\n+const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-} */\n+}\n \n \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
+                },
+                {
+                    "date": 1670242125083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n \n import { Home } from './components/Home';\n import { Login } from './components/Login';\n \n-const loginContainer:Element = document.querySelector(\"#login\");\n+/* const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-}\n+} */\n \n \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
+                },
+                {
+                    "date": 1670242140469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import './scss/styles.scss';\n \n import { Home } from './components/Home';\n-import { Login } from './components/Login';\n+/import { Login } from './components/Login';\n \n /* const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n"
+                },
+                {
+                    "date": 1670242141092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import './scss/styles.scss';\n \n import { Home } from './components/Home';\n-/import { Login } from './components/Login';\n+//import { Login } from './components/Login';\n \n /* const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n"
+                },
+                {
+                    "date": 1670243316573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,20 @@\n import './scss/styles.scss';\n \n-import { Home } from './components/Home';\n-//import { Login } from './components/Login';\n+//import { Home } from './components/Home';\n+import { Login } from './components/Login';\n \n-/* const loginContainer:Element = document.querySelector(\"#login\");\n+const loginContainer:Element = document.querySelector(\"#login\");\n if (loginContainer) {\n     new Login(loginContainer);\n-} */\n+}\n \n-\n+/* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n     new Home(homeContainer);\n-}\n+} */\n \n \n \n \n"
+                },
+                {
+                    "date": 1670245083158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n+\n /* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n"
+                },
+                {
+                    "date": 1670245083218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n     new Login(loginContainer);\n }\n \n \n+\n /* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n"
+                },
+                {
+                    "date": 1670245088703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n+const \n \n-\n /* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n if (homeContainer) {\n"
+                },
+                {
+                    "date": 1670245094609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n if (loginContainer) {\n     new Login(loginContainer);\n }\n \n-const log\n+const logi\n \n /* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
+                },
+                {
+                    "date": 1670245151366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n const login =  document.getElementById(\"submit\");\n login.addEventListener(\"submit\", submitForm);\n \n-f\n+fu\n \n /* \n const homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n \n"
                 }
             ],
-            "date": 1669984804308,
+            "date": 1670234141162,
             "name": "Commit-0",
-            "content": "import './styles.scss';\n/* import { Component } from './components/component';\n\nconst component = new Component();\ncomponent.hello(); */\n"
+            "content": "import './scss/styles.scss';\n\nimport { Home } from './components/Home';\nimport { Login } from './components/Login';\n\n/* const loginContainer:Element = document.querySelector(\"#login\");\nif (loginContainer) {\n    new Login(loginContainer);\n} */\n\n\nconst homeContainer: Element = document.querySelector<HTMLElement>(\"#home\");\n\nif (homeContainer) {\n    new Home(homeContainer);\n}\n\n\n\n\n"
         }
     ]
 }

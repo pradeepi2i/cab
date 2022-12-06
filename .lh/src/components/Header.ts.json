@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Header.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1670310797382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670310847520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                        a<h4>Home</h4>\n+                    <a href=\"./home.html\"></a><h4>Home</h4>\n                         <h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n"
+                },
+                {
+                    "date": 1670310854514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                    <a href=\"./home.html\"></a><h4>Home</h4>\n+                    <a href=\"./home.html\"><h4>Home</h4></a>\n                         <h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n"
+                },
+                {
+                    "date": 1670310861141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                    <a href=\"./home.html\"><h4>Home</h4></a>\n+                    <a href=\"./hhome.html\"><h4>Home</h4></a>\n                         <h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n"
+                }
+            ],
+            "date": 1670310797382,
+            "name": "Commit-0",
+            "content": "\nexport class Header {\n       header: Element;\n    constructor(navbar: Element) {        \n        this.header = navbar;\n        this.renderHeader();        \n    }\n\n     renderHeader() {\n          this.header.innerHTML = `              \n                    <div class=\"navbar-left\">\n                        <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                        <h1>HelloCabs</h1>\n                    </div>\n                    <div class=\"navbar-right\">\n                        a<h4>Home</h4>\n                        <h4>About</h4>\n                        <h4>Contact</h4>\n                        <h4>Profile</h4>\n                    </div>`                \n    }\n}"
+        }
+    ]
+}

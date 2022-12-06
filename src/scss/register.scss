@@ -1,0 +1,55 @@
+
+#register {
+    @include display-type(flex, center, "", center);
+    height: 100vh;
+
+    .input-registration {
+        @include box-style(0px $sm, 0px 5px, none, 5px);
+        font-size: 2*$sm;
+        border-bottom: 1px solid #8a0080;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background: aliceblue;
+    }
+
+    .popup {
+        @include box-style($sm, 5px, 1px solid $darkgrey, 5px);
+        @include box-shadow(10px 18px 21px -7px  rgba(14, 14, 14, 1));
+    }
+
+    .input-fields {
+        font-size: $x-lg;
+        margin-block: $sm;
+
+        :focus {
+            outline: none;
+        }
+    }
+
+    .terms {
+        @include display-type(flex, flex-start, center);
+    }
+
+    #agree {
+        height: 23px;
+        width: 23px;       
+    }
+
+    .secondary-btn {
+        @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);
+        color: $text-color1;
+    
+        &:hover {
+            @include box-shadow(0px 0px 1px 4px rgba(130, 23, 109, 1));
+        }
+    }
+    
+    .confirm {
+        @include display-type(flex, space-between);
+    }
+}
+
+
+
+
+

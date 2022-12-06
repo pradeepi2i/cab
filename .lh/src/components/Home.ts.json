@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Home.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1670310720126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1670310720126,
+            "name": "Commit-0",
+            "content": "import {Header} from '../components/Header'\nimport {Content} from '../components/Content'\n\nexport class Home {\n    header: Header;\n    content:Content;\n    home:Element;\n    constructor(container:Element) {\n        this.home = container\n        this.renderHome();\n    }\n\n    renderHome() {\n        this.home.innerHTML = `\n        <div id=\"navbar\" class = \"navbar\">    \n        </div>    \n        <div id=\"content\" class = \"container\"></div>`\n        console.log(\"Home\" , this.home);\n        const navbar = this.home.querySelector(\"#navbar\");\n        this.header = new Header(navbar);\n\n        const content = this.home.querySelector(\"#content\");\n        this.content = new Content(content);\n    }\n}"
+        }
+    ]
+}

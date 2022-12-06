@@ -1,0 +1,47 @@
+@mixin display-type ($displayContent, $justify, $alignContent: null, $alignItems: null, $flexDirection: null) {
+    display: $displayContent;
+    justify-content: $justify;
+    align-content: $alignContent;
+    align-items: $alignItems;
+    flex-direction: $flexDirection;
+}
+
+@mixin box-shadow ($shadow){
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin primary-btn ($padding, $margin, $borderRadius, $fontSize, $backgroundColor, $border) {
+    padding: $padding;
+    font-size: xxx-large;
+    margin: $margin;
+    border-radius: $borderRadius;
+    font-size: $fontSize;
+    background-color: $backgroundColor;
+    border: $border;
+}
+
+@mixin secondary-btn ($padding, $margin, $borderRadius, $fontSize, $backgroundColor, $border) {
+    padding: $padding;
+    font-size: xxx-large;
+    margin: $margin;
+    border-radius: $borderRadius;
+    font-size: $fontSize;
+    background-color: $backgroundColor;
+    border: $border;
+}
+
+@mixin box-style($padding, $margin, $border, $borderRadius:null) {
+    padding: $padding;
+    margin: $margin;
+    border: $border;
+    border-radius: $borderRadius;
+}
+
+@mixin input-spin-button($appearance) {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        appearance: $appearance;        
+    }
+}

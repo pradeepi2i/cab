@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/html/home.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1670310805618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670310817090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n <body>\n     <div id=\"home\">\n \n     </div>\n+    <a href=\"/\"></a>\n     \n-    \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670310825384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n <body>\n     <div id=\"home\">\n \n     </div>\n-    <a href=\"/\"></a>\n+    <a href=\"./home.html\"></a>\n     \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670310833097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n <body>\n     <div id=\"home\">\n \n     </div>\n-    <a href=\"./home.html\"></a>\n     \n+    \n </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670310805618,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    <div id=\"home\">\n\n    </div>\n    \n    \n</body>\n</html>"
+        }
+    ]
+}

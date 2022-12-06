@@ -60,12 +60,22 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new CleanWebpackPlugin(),
+    /* 
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/html/index.html'
+    }), */
+    /* 
+    new HtmlWebpackPlugin({
+      template: './src/html/login.html'
+    }), */
+
+    new HtmlWebpackPlugin({
+      template: './src/html/register.html'
     }),
+
     new ForkTsCheckerWebpackPlugin(),
     new CopyPlugin({
-      patterns: [{ from: 'src/assets', to: 'assets' }]
+      patterns: [{ from: './src/assets', to: 'assets' }]
     }),
     new ESLintPlugin({
       extensions: ['.tsx', '.ts', '.js'],
