@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/components/Login.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1670244625467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670244678538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,7 @@\n         </form>\n \n     </div>`\n     }\n+\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670244769500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,8 @@\n             <div class=\"login-details\">\n                 <input type=\"submit\" name=\"submit\" value=\"Login\" id=\"submit\">\n             </div>\n         </form>\n-\n     </div>`\n     }\n \n     \n"
+                },
+                {
+                    "date": 1670244803446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,8 @@\n             </div>\n         </form>\n     </div>`\n     }\n+    \n \n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670244865026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n             </div>\n         </form>\n     </div>`\n     }\n-    \n \n+    ``\n+\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670244888140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,8 @@\n         </form>\n     </div>`\n     }\n \n-    ``\n+    \n \n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670245051599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n             </div>\n         </form>\n     </div>`\n     }\n-\n     \n \n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670245913994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n             </div>\n         </form>\n     </div>`\n     }\n+\n     \n \n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670297510085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n \n \n export class Login {\n     login:Element;\n+    \n     constructor(loginContainer: Element) {\n         this.login = loginContainer;\n         this.renderLogin();\n     }\n"
+                },
+                {
+                    "date": 1670297517416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n \n export class Login {\n     login:Element;\n-    login\n+    logincontin\n     constructor(loginContainer: Element) {\n         this.login = loginContainer;\n         this.renderLogin();\n     }\n"
+                },
+                {
+                    "date": 1670297518427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n \n export class Login {\n     login:Element;\n-    logincontiner\n+    logincontiner:\n     constructor(loginContainer: Element) {\n         this.login = loginContainer;\n         this.renderLogin();\n     }\n"
+                }
+            ],
+            "date": 1670244625467,
+            "name": "Commit-0",
+            "content": "\n\nexport class Login {\n    login:Element;\n    constructor(loginContainer: Element) {\n        this.login = loginContainer;\n        this.renderLogin();\n    }\n\n    renderLogin() {\n        this.login.innerHTML = `<div class=\"login-section\">\n        <form action=\"post\" name=\"login\" class=\"login-form\" id=\"loginForm\">\n            <div class=\"login-details\">\n                <label for=\"mobileNumber\">Username : </label>\n                <input type=\"number\" name=\"mobileNumber\" id=\"mobileNumber\" placeholder=\"Mobile Number\"\n                    class=\"input\">\n            </div>\n            <div class=\"login-details\">\n                <label for=\"password\">Password : </label>\n                <input type=\"text\" name=\"password\" id=\"password\" placeholder=\"Password\" class=\"input\">\n            </div>\n            <div class=\"login-details\">\n                <input type=\"submit\" name=\"submit\" value=\"Login\" id=\"submit\">\n            </div>\n        </form>\n\n    </div>`\n    }\n    \n}"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "sourceFile": "src/scss/styles.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1670237521523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670302087513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n @import './login';\n @import './home';\n \n \n+@include input-spin-button(none);\n+\n body {\n     margin: 0px;\n }\n \n"
+                },
+                {
+                    "date": 1670302092739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \n @import'./header';\n @import './login';\n @import './home';\n+@import\n \n-\n @include input-spin-button(none);\n \n body {\n     margin: 0px;\n"
+                },
+                {
+                    "date": 1670302098764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n @import'./header';\n @import './login';\n @import './home';\n-@import\n+@import'./register.scss'\n \n @include input-spin-button(none);\n \n body {\n"
+                },
+                {
+                    "date": 1670308319780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,14 @@\n \n @import'./header';\n @import './login';\n @import './home';\n-@import'./register.scss'\n+@import'./register';\n \n @include input-spin-button(none);\n \n body {\n+    \n     margin: 0px;\n }\n \n \n"
+                },
+                {
+                    "date": 1670308328037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n \n @include input-spin-button(none);\n \n body {\n-    \n+\n+    button \n     margin: 0px;\n }\n \n \n"
+                },
+                {
+                    "date": 1670308384184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,12 @@\n @include input-spin-button(none);\n \n body {\n \n-    button \n-    margin: 0px;\n+    button {\n+        cursor: pointer;\n+    }\n+    \n }\n \n \n \n"
+                },
+                {
+                    "date": 1670308400642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,10 @@\n \n @include input-spin-button(none);\n \n body {\n+    margin: 0px;\n \n-    button {\n-        cursor: pointer;\n-    }\n     \n }\n \n \n"
+                },
+                {
+                    "date": 1670308414917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,4 +15,7 @@\n }\n \n \n \n+\n+\n+\n"
+                },
+                {
+                    "date": 1670308458799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,10 @@\n     \n }\n \n \n+button {\n+    cursor: pointer;\n+}\n \n \n \n-\n"
+                },
+                {
+                    "date": 1670308471451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,12 @@\n \n body {\n     margin: 0px;\n \n+    button {\n+        cursor: pointer;\n+    }\n     \n }\n \n \n-button {\n-    cursor: pointer;\n-}\n \n-\n-\n"
+                },
+                {
+                    "date": 1670308479286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,10 @@\n \n     button {\n         cursor: pointer;\n     }\n+\n+    input{}\n     \n }\n \n \n"
+                },
+                {
+                    "date": 1670308485350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input{}\n+    input[type=]\n     \n }\n \n \n"
+                },
+                {
+                    "date": 1670308490904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=]\n+    input[type=\"sub]\n     \n }\n \n \n"
+                },
+                {
+                    "date": 1670308497300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"sub]\n+    input[type=\"submit\"] {\"]\n     \n }\n \n \n"
+                },
+                {
+                    "date": 1670308502514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit\"] {\"]\n+    input[type=\"submit\"] {\n+        \n+    }\n     \n }\n \n \n"
+                },
+                {
+                    "date": 1670308756957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit\"] {\n-        \n+    input[type=\"submit\",] {\n+        cursor: pointer;\n     }\n     \n }\n \n"
+                },
+                {
+                    "date": 1670308759394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit\",] {\n+    input[type=\"submit] {\n         cursor: pointer;\n     }\n     \n }\n"
+                },
+                {
+                    "date": 1670308766059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit] {\n+    input[type=\"submit\"] {\n         cursor: pointer;\n     }\n     \n }\n"
+                },
+                {
+                    "date": 1670308771232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit\"] {\n+    input[type=\"submit\",] {\n         cursor: pointer;\n     }\n     \n }\n"
+                },
+                {
+                    "date": 1670308781108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,12 +14,13 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit\",] {\n+    input[type=\"submit\"] {\n         cursor: pointer;\n     }\n     \n+    \n }\n \n \n \n"
+                },
+                {
+                    "date": 1670308787453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,13 @@\n \n     input[type=\"submit\"] {\n         cursor: pointer;\n     }\n+\n+    input[type=\"subcmit\"] {\n+        cursor: pointer;\n+    }\n     \n-    \n }\n \n \n \n"
+                },
+                {
+                    "date": 1670308793878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     input[type=\"submit\"] {\n         cursor: pointer;\n     }\n \n-    input[type=\"subcmit\"] {\n+    input[type=\"chec\"] {\n         cursor: pointer;\n     }\n     \n }\n"
+                },
+                {
+                    "date": 1670309778237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     input[type=\"submit\"] {\n         cursor: pointer;\n     }\n \n-    input[type=\"chec\"] {\n+    input[type=\"checkbox] {\n         cursor: pointer;\n     }\n     \n }\n"
+                },
+                {
+                    "date": 1670309784097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,13 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=\"submit\"] {\n+    input[type=submit\"] {\n         cursor: pointer;\n     }\n \n-    input[type=\"checkbox] {\n+    input[type=checkbox] {\n         cursor: pointer;\n     }\n     \n }\n"
+                },
+                {
+                    "date": 1670309948381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     button {\n         cursor: pointer;\n     }\n \n-    input[type=submit\"] {\n+    input[type=submit] {\n         cursor: pointer;\n     }\n \n     input[type=checkbox] {\n@@ -26,4 +26,5 @@\n }\n \n \n \n+\n"
+                },
+                {
+                    "date": 1670309954171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,8 @@\n     }\n     \n }\n \n-.secondary-b\n+.secondary-bt\n \n \n \n"
+                },
+                {
+                    "date": 1670309954592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,8 @@\n     }\n     \n }\n \n-.secondary-bt\n+.secondary-btn\n \n \n \n"
+                }
+            ],
+            "date": 1670237521523,
+            "name": "Commit-0",
+            "content": "@import 'variable';\n@import 'root';\n\n@import'./header';\n@import './login';\n@import './home';\n\n\nbody {\n    margin: 0px;\n}\n\n\n\n"
+        }
+    ]
+}

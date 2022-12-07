@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/components/Content.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1670394944776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670394951404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n \n     renderContent() {\n         this.content.innerHTML = `        \n             <div class=\"book-ride\">\n-                <button class=\"primary-btn\" >Book Ride</button>\n+                <button class=\"primary-btn\" id=\"b\">Book Ride</button>\n             </div>`;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670394962664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n \n     renderContent() {\n         this.content.innerHTML = `        \n             <div class=\"book-ride\">\n-                <button class=\"primary-btn\" id=\"b\">Book Ride</button>\n+                <button class=\"primary-btn\" id=\"boo\">Book Ride</button>\n             </div>`;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670394971206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n \n     renderContent() {\n         this.content.innerHTML = `        \n             <div class=\"book-ride\">\n-                <button class=\"primary-btn\" id=\"ride\">L Ride</button>\n+                <button class=\"primary-btn\" id=\"ride\">Le Ride</button>\n             </div>`;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670394978777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n \n     renderContent() {\n         this.content.innerHTML = `        \n             <div class=\"book-ride\">\n-                <button class=\"primary-btn\" id=\"ride\">Let's get Stsrte Ride</button>\n+                <button class=\"primary-btn\" id=\"ride\">Let's get Stsrted Ride</button>\n             </div>`;\n     }\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670394944776,
+            "name": "Commit-0",
+            "content": "export class Content {    \n    content: Element;\n    constructor(content: Element) {        \n        this.content = content;\n        this.renderContent();\n    }\n\n\n    renderContent() {\n        this.content.innerHTML = `        \n            <div class=\"book-ride\">\n                <button class=\"primary-btn\" >Book Ride</button>\n            </div>`;\n    }\n}"
+        }
+    ]
+}

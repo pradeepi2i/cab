@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/scss/ride.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1670396064804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670396065069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-b\n\\ No newline at end of file\n+bo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670396073414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-bo\n\\ No newline at end of file\n+body {\n+    background: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670396122711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body {\n-    background: ;\n+    background: w;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670396123150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body {\n-    background: wh;\n+    background: whi;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670396133116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body {\n-    b\n+    ba\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670396064804,
+            "name": "Commit-0",
+            "content": "b"
+        }
+    ]
+}

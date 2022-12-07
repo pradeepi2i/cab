@@ -1,0 +1,24 @@
+.navbar {
+    @include display-type(flex, space-between, center);
+    height: 70px;
+    padding: 5px;
+    color: $text-color1;
+
+    &-right {
+        @include display-type(flex, space-evenly);
+        width: 30%;
+    }
+
+    h1 {
+        margin-inline: 10px;
+    }
+
+    &-left {
+        height: 70px;
+        @include display-type(flex, flex-start);
+
+        #taxiLogo {
+            width: 70px;
+        }
+    }
+}

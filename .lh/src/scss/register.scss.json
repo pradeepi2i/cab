@@ -1,0 +1,226 @@
+{
+    "sourceFile": "src/scss/register.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 52,
+            "patches": [
+                {
+                    "date": 1670301771356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670301777106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-b\n\\ No newline at end of file\n+body {\n+    background-color: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670301814568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n body {\n-    background-color: ;\n+    background-color: $text-color1;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670301819905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n body {\n     background-color: $text-color1;\n-    \n+    color: black;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670302279254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n body {\n     background-color: $text-color1;\n     color: black;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1670303973557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,11 @@\n body {\n     background-color: $text-color1;\n     color: black;\n }\n+\n+#register {\n+    display: flex;\n+    justify-content: center;\n+    align-items: center;\n+    height: 100vh;\n+}\n"
+                },
+                {
+                    "date": 1670303974052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,4 +8,5 @@\n     justify-content: center;\n     align-items: center;\n     height: 100vh;\n }\n+\n"
+                },
+                {
+                    "date": 1670303982127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,4 +9,14 @@\n     align-items: center;\n     height: 100vh;\n }\n \n+input class=input-registration  {\n+    font-size: large;\n+    border-radius: 5px;\n+    border: none;\n+    margin-inline: 5px;\n+    border-bottom: 1px solid #8a0080;\n+    border-bottom-right-radius: 0px;\n+    border-bottom-left-radius: 0px;\n+    background: aliceblue;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304048516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,14 +9,14 @@\n     align-items: center;\n     height: 100vh;\n }\n \n-input class=input-registration  {\n+.input-registration  {\n     font-size: large;\n     border-radius: 5px;\n     border: none;\n     margin-inline: 5px;\n     border-bottom: 1px solid #8a0080;\n     border-bottom-right-radius: 0px;\n     border-bottom-left-radius: 0px;\n     background: aliceblue;\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1670304093890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,12 @@\n     border-bottom: 1px solid #8a0080;\n     border-bottom-right-radius: 0px;\n     border-bottom-left-radius: 0px;\n     background: aliceblue;\n-}\n\\ No newline at end of file\n+}\n+\n+.popup {\n+    margin: 5px;\n+    padding: 10px;\n+    border: 1px solid black;\n+    border-radius: 5px;\n+}\n"
+                },
+                {
+                    "date": 1670304269449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     height: 100vh;\n }\n \n .input-registration  {\n-    font-size: large;\n+    font-size: 20px;\n     border-radius: 5px;\n     border: none;\n     margin-inline: 5px;\n     border-bottom: 1px solid #8a0080;\n@@ -26,4 +26,9 @@\n     padding: 10px;\n     border: 1px solid black;\n     border-radius: 5px;\n }\n+\n+.input-fields {\n+    font-size: x-large;\n+    margin-block: 10px;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304446561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n body {\n     background-color: $text-color1;\n     color: black;\n }\n"
+                },
+                {
+                    "date": 1670304453045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+@import \n \n body {\n     background-color: $text-color1;\n     color: black;\n"
+                },
+                {
+                    "date": 1670304459258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import \n+@import '..'\n \n body {\n     background-color: $text-color1;\n     color: black;\n"
+                },
+                {
+                    "date": 1670304459381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import '..'\n+@import '../'\n \n body {\n     background-color: $text-color1;\n     color: black;\n"
+                },
+                {
+                    "date": 1670304465172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import '../'\n+@import './login.scss'\n \n body {\n     background-color: $text-color1;\n     color: black;\n"
+                },
+                {
+                    "date": 1670304473527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import './login.scss'\n+@import './login.scss';\n \n body {\n     background-color: $text-color1;\n     color: black;\n"
+                },
+                {
+                    "date": 1670304479747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-@import './login.scss';\n \n+\n body {\n     background-color: $text-color1;\n     color: black;\n }\n"
+                },
+                {
+                    "date": 1670304506862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,5 +32,5 @@\n \n .input-fields {\n     font-size: x-large;\n     margin-block: 10px;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1670304560065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,4 +33,12 @@\n .input-fields {\n     font-size: x-large;\n     margin-block: 10px;\n }\n+\n+#submit {\n+    @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n+    color:$text-color1;\n+    &:hover {\n+        @include box-shadow(0px 0px 6px 8px rgba(130,23,109,1));\n+    }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304570148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,7 +38,7 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        @include box-shadow(0px 0px 6px 8px rgba(130,23,109,1));\n+        @include box-shadow(0px 0px 6px px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304577900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,7 +38,7 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        @include box-shadow(0px 0px 6px px rgba(130,23,109,1));\n+        @include box-shadow(0px 0px 6px 13px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304584278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,7 +38,7 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        @include box-shadow(0px 0px 6px 13px rgba(130,23,109,1));\n+        @include box-shadow(0px 0px 6px 3px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304601880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,7 +38,8 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        @include box-shadow(0px 0px 6px 3px rgba(130,23,109,1));\n+        \n+        @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304607402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,8 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        \n+        font-size: \n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304617411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,8 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        font-size: \n+        font-size: xx-large\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304627919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,11 +35,11 @@\n     margin-block: 10px;\n }\n \n #submit {\n-    @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);\n+    @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        font-size: xx-large\n+        font-size: xx-large;\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304666805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,7 @@\n #submit {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n-        font-size: xx-large;\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670304819651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n-#submit {\n+ {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n"
+                },
+                {
+                    "date": 1670304829299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n- {\n+.secondary- {\n     @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n"
+                },
+                {
+                    "date": 1670305238648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,10 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n-.secondary- {\n-    @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n+.secondary-btn {\n+    @include s-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n"
+                },
+                {
+                    "date": 1670305269433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,11 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n+\n .secondary-btn {\n-    @include s-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n+    @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n"
+                },
+                {
+                    "date": 1670305277152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n+@use ;\n \n .secondary-btn {\n     @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n"
+                },
+                {
+                    "date": 1670305285170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,10 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n-@use ;\n \n+\n .secondary-btn {\n     @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n"
+                },
+                {
+                    "date": 1670305426061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,13 +34,11 @@\n     font-size: x-large;\n     margin-block: 10px;\n }\n \n-\n-\n .secondary-btn {\n     @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n     color:$text-color1;\n     &:hover {\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1670305430091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,4 +42,5 @@\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n \n+.confirm\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670305436175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,5 +42,7 @@\n         @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n     }\n }\n \n-.confirm\n\\ No newline at end of file\n+.confirm {\n+    display: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670305442103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,7 @@\n     }\n }\n \n .confirm {\n-    display: ;\n+    display: flex;\n+    ju\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670305479774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,6 +44,6 @@\n }\n \n .confirm {\n     display: flex;\n-    ju\n+    justify-content: space-be;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670305542172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,8 @@\n \n \n-body {\n-    background-color: $text-color1;\n-    color: black;\n-}\n \n+\n #register {\n     display: flex;\n     justify-content: center;\n     align-items: center;\n@@ -44,6 +41,6 @@\n }\n \n .confirm {\n     display: flex;\n-    justify-content: space-be;\n+    justify-content: space-between;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670305617248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     font-size: 20px;\n     border-radius: 5px;\n     border: none;\n     margin-inline: 5px;\n+    \n     border-bottom: 1px solid #8a0080;\n     border-bottom-right-radius: 0px;\n     border-bottom-left-radius: 0px;\n     background: aliceblue;\n"
+                },
+                {
+                    "date": 1670305622916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     font-size: 20px;\n     border-radius: 5px;\n     border: none;\n     margin-inline: 5px;\n-    \n+    padding-inline: ;\n     border-bottom: 1px solid #8a0080;\n     border-bottom-right-radius: 0px;\n     border-bottom-left-radius: 0px;\n     background: aliceblue;\n"
+                },
+                {
+                    "date": 1670307931342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n \n \n \n-\n #register {\n     display: flex;\n     justify-content: center;\n     align-items: center;\n@@ -13,9 +12,9 @@\n     font-size: 20px;\n     border-radius: 5px;\n     border: none;\n     margin-inline: 5px;\n-    padding-inline: ;\n+    padding-inline: 10px;\n     border-bottom: 1px solid #8a0080;\n     border-bottom-right-radius: 0px;\n     border-bottom-left-radius: 0px;\n     background: aliceblue;\n"
+                },
+                {
+                    "date": 1670307937269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n \n-\n-\n #register {\n+    @inclu\n     display: flex;\n     justify-content: center;\n     align-items: center;\n     height: 100vh;\n"
+                },
+                {
+                    "date": 1670307943890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n #register {\n-    @inclu\n+    @include display-type(flex,\n     display: flex;\n     justify-content: center;\n     align-items: center;\n     height: 100vh;\n"
+                },
+                {
+                    "date": 1670307950081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n #register {\n-    @include display-type(flex,\n+    @include display-type(flex,center,\n     display: flex;\n     justify-content: center;\n     align-items: center;\n     height: 100vh;\n"
+                },
+                {
+                    "date": 1670307955963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n #register {\n-    @include display-type(flex,center,\n+    @include display-type(flex,center,\"\", c\n     display: flex;\n     justify-content: center;\n     align-items: center;\n     height: 100vh;\n"
+                },
+                {
+                    "date": 1670307965690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,7 @@\n \n #register {\n-    @include display-type(flex,center,\"\", c\n-    display: flex;\n-    justify-content: center;\n-    align-items: center;\n-    height: 100vh;\n+    @include display-type(flex,center,\"\", center);   height: 100vh;\n }\n \n .input-registration  {\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1670307972160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,10 @@\n \n #register {\n-    @include display-type(flex,center,\"\", center);   height: 100vh;\n+    @include display-type(flex,center,\"\", center);\n+       height: 100vh;\n }\n \n-.input-registration  {\n-    font-size: 20px;\n-    border-radius: 5px;\n-    border: none;\n-    margin-inline: 5px;\n-    padding-inline: 10px;\n-    border-bottom: 1px solid #8a0080;\n-    border-bottom-right-radius: 0px;\n-    border-bottom-left-radius: 0px;\n-    background: aliceblue;\n-}\n \n .popup {\n     margin: 5px;\n     padding: 10px;\n"
+                },
+                {
+                    "date": 1670307977380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,20 @@\n+#register {\n+    @include display-type(flex, center, \"\", center);\n+    height: 100vh;\n \n-#register {\n-    @include display-type(flex,center,\"\", center);\n-       height: 100vh;\n+\n+    .input-registration {\n+        font-size: 20px;\n+        border-radius: 5px;\n+        border: none;\n+        margin-inline: 5px;\n+        padding-inline: 10px;\n+        border-bottom: 1px solid #8a0080;\n+        border-bottom-right-radius: 0px;\n+        border-bottom-left-radius: 0px;\n+        background: aliceblue;\n+    }\n }\n \n \n .popup {\n@@ -18,11 +30,12 @@\n }\n \n .secondary-btn {\n     @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);\n-    color:$text-color1;\n+    color: $text-color1;\n+\n     &:hover {\n-        @include box-shadow(0px 0px 16px 3px rgba(130,23,109,1));\n+        @include box-shadow(0px 0px 16px 3px rgba(130, 23, 109, 1));\n     }\n }\n \n .confirm {\n"
+                },
+                {
+                    "date": 1670307984075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n #register {\n     @include display-type(flex, center, \"\", center);\n     height: 100vh;\n \n-\n     .input-registration {\n+        \n         font-size: 20px;\n         border-radius: 5px;\n         border: none;\n         margin-inline: 5px;\n"
+                },
+                {
+                    "date": 1670307990237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     @include display-type(flex, center, \"\", center);\n     height: 100vh;\n \n     .input-registration {\n-        @include box-s\n+        @include box-sty\n         font-size: 20px;\n         border-radius: 5px;\n         border: none;\n         margin-inline: 5px;\n"
+                },
+                {
+                    "date": 1670307990621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     @include display-type(flex, center, \"\", center);\n     height: 100vh;\n \n     .input-registration {\n-        @include box-sty\n+        @include box-style\n         font-size: 20px;\n         border-radius: 5px;\n         border: none;\n         margin-inline: 5px;\n"
+                }
+            ],
+            "date": 1670301771356,
+            "name": "Commit-0",
+            "content": "b"
+        }
+    ]
+}

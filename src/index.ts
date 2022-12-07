@@ -1,18 +1,39 @@
-import './styles.scss';
-import {HeaderComponent} from './components/HeaderComponents';
-import { HomeComponent } from './components/HomeComponent';
+import './scss/styles.scss';
 
-const loginContainer:Element = document.querySelector<HTMLElement>("#login");
+import { Home } from './components/Home';
+import { Login } from './components/Login';
+import { Register } from './components/Register';
 
-if (loginContainer) {
-    new HeaderComponent(loginContainer);
-}
+import { getQuerySelector } from './components/Utils';
+import { Ride } from './components/Ride';
 
-const homeContainer: Element = document.querySelector<HTMLElement>("#home");
+const homeContainer: Element = getQuerySelector("#home");
 
 if (homeContainer) {
-    new HomeComponent(homeContainer);
+    new Home(homeContainer);
 }
+
+
+const loginContainer: Element = getQuerySelector("#login");
+
+if (loginContainer) {
+    new Login(loginContainer); 
+}
+const registerContainer: Element = getQuerySelector("#register");
+
+if(registerContainer) {
+    new Register(registerContainer);
+} 
+
+const rideContainer: Element = getQuerySelector("#ride");
+
+if(rideContainer) {
+    new Ride(rideContainer);
+}
+
+
+
+
 
 
 

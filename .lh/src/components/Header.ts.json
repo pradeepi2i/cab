@@ -1,0 +1,98 @@
+{
+    "sourceFile": "src/components/Header.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1670310797382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670310847520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                        a<h4>Home</h4>\n+                    <a href=\"./home.html\"></a><h4>Home</h4>\n                         <h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n"
+                },
+                {
+                    "date": 1670310854514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                    <a href=\"./home.html\"></a><h4>Home</h4>\n+                    <a href=\"./home.html\"><h4>Home</h4></a>\n                         <h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n"
+                },
+                {
+                    "date": 1670310861141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                    <a href=\"./home.html\"><h4>Home</h4></a>\n+                    <a href=\"./hhome.html\"><h4>Home</h4></a>\n                         <h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n"
+                },
+                {
+                    "date": 1670312397969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n                         <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n-                    <a href=\"./hhome.html\"><h4>Home</h4></a>\n-                        <h4>About</h4>\n+                    <a href=\"./html/home.html\"><h4>Home</h4></a>\n+                    <a href=\"./html/home.html\"><h4>About</h4>\n                         <h4>Contact</h4>\n                         <h4>Profile</h4>\n                     </div>`                \n     }\n"
+                },
+                {
+                    "date": 1670312403543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n                     </div>\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/home.html\"><h4>About</h4>\n-                        <h4>Contact</h4>\n-                        <h4>Profile</h4>\n+                    <a href=\"./html/home.html\"><h4>Contact</h4>\n+                    <a href=\"./html/home.html\"><h4>Profile</h4>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670312409098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n-                    <a href=\"./html/home.html\"><h4>About</h4>\n+                    <a href=\"./html/home.html\"><h4>About</h4></a>\n                     <a href=\"./html/home.html\"><h4>Contact</h4>\n                     <a href=\"./html/home.html\"><h4>Profile</h4>\n                     </div>`                \n     }\n"
+                },
+                {
+                    "date": 1670312415550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n                     </div>\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/home.html\"><h4>About</h4></a>\n-                    <a href=\"./html/home.html\"><h4>Contact</h4>\n-                    <a href=\"./html/home.html\"><h4>Profile</h4>\n+                    <a href=\"./html/home.html\"><h4>Contact</h4></a>\n+                    <a href=\"./html/home.html\"><h4>Profile</h4></a\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670312421347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,10 @@\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n-                    <a href=\"./html/home.html\"><h4>About</h4></a>\n+                    <a href=\"./html/a.html\"><h4>About</h4></a>\n                     <a href=\"./html/home.html\"><h4>Contact</h4></a>\n-                    <a href=\"./html/home.html\"><h4>Profile</h4></a\n+                    <a href=\"./html/home.html\"><h4>Profile</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670312429496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,10 @@\n                         <h1>HelloCabs</h1>\n                     </div>\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n-                    <a href=\"./html/a.html\"><h4>About</h4></a>\n-                    <a href=\"./html/home.html\"><h4>Contact</h4></a>\n+                    <a href=\"./html/about.html\"><h4>About</h4></a>\n+                    <a href=\"./html/c.html\"><h4>Contact</h4></a>\n                     <a href=\"./html/home.html\"><h4>Profile</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670312437296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n                     </div>\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n-                    <a href=\"./html/c.html\"><h4>Contact</h4></a>\n-                    <a href=\"./html/home.html\"><h4>Profile</h4></a>\n+                    <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n+                    <a href=\"./html/p.html\"><h4>Profile</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670312437447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"./html/p.html\"><h4>Profile</h4></a>\n+                    <a href=\"./html/pr.html\"><h4>Profile</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670312452862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"./html/pr.html\"><h4>Profile</h4></a>\n+                    <a href=\"./html/profile.html\"><h4>L</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316646333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"./html/profile.html\"><h4>L</h4></a>\n+                    <a href=\"../html/login.html\"><h4>Login</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316656453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"../html/login.html\"><h4>Login</h4></a>\n+                    <a href=\"./html/login.html\"><h4>Login</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316662544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"./html/login.html\"><h4>Login</h4></a>\n+                    <a href=\"/html/login.html\"><h4>Login</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316667696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"/html/login.html\"><h4>Login</h4></a>\n+                    <a href=\"><h4>Login</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316673334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"><h4>Login</h4></a>\n+                    <a href=\"...\"><h4>Login</h4></a>\n                     </div>`                \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316683231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n                     <div class=\"navbar-right\">\n                     <a href=\"./html/home.html\"><h4>Home</h4></a>\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n-                    <a href=\"...\"><h4>Login</h4></a>\n+                    <a href=\"\"><h4>Login</h4></a>\n                     </div>`                \n+                    \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316689003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,7 @@\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n                     <a href=\"\"><h4>Login</h4></a>\n                     </div>`                \n-                    .\n+                    \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670316698460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,7 @@\n                     <a href=\"./html/about.html\"><h4>About</h4></a>\n                     <a href=\"./html/contact.html\"><h4>Contact</h4></a>\n                     <a href=\"\"><h4>Login</h4></a>\n                     </div>`                \n-                    sourc\n+                    sour\n     }\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670310797382,
+            "name": "Commit-0",
+            "content": "\nexport class Header {\n       header: Element;\n    constructor(navbar: Element) {        \n        this.header = navbar;\n        this.renderHeader();        \n    }\n\n     renderHeader() {\n          this.header.innerHTML = `              \n                    <div class=\"navbar-left\">\n                        <img src=\"./assets/taxilogo.png\" alt=\"taxi-logo\" id=\"taxiLogo\">\n                        <h1>HelloCabs</h1>\n                    </div>\n                    <div class=\"navbar-right\">\n                        a<h4>Home</h4>\n                        <h4>About</h4>\n                        <h4>Contact</h4>\n                        <h4>Profile</h4>\n                    </div>`                \n    }\n}"
+        }
+    ]
+}

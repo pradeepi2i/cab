@@ -1,0 +1,82 @@
+{
+    "sourceFile": "src/scss/home.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1670237515661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670240745700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow;\n+            @include box-shadow();\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670240771931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow();\n+            @include box-shadow(10px, 18px, 21px -7px rgba(191,189,191,1));\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670240781178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px -7px rgba(191,189,191,1));\n+            @include box-shadow(10px, 18px, 21px, -7px, gba(191,189,191,1));\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242208850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, gba(191,189,191,1));\n+            @include box-shadow(10px, 18px, 21px, -7px, 11,189,191,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242330672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 11,189,191,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 141,189,191,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242361522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 141,189,191,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 11,189,191,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242383444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 11,189,191,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 1  1,189,191,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242493971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 1  1,189,191,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, ,189,191,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242499568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, ,189,191,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 41, 4189,191,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242504862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 41, 4189,191,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 41, 41,401,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242582587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 41, 41,401,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 4, 41, 40,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242590923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 4, 41, 40,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 58,  58, 40,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242738691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 58,  58, 40,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 0,  58, 59,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242744147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 0,  58, 59,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 0,  0, 09,1);\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242777469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n         @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n         color:$text-color1;\n \n         &:hover {\n-            @include box-shadow(10px, 18px, 21px, -7px, 0,  0, 0,1);\n+            @include box-shadow(10px, 18px, 21px, -7px, 191,189,191,1));\n         }\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670242794304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     opacity: .9;\n     @include display-type(flex, space-between, \"\", \"\", column);\n }\n \n+\n .book-ride {\n     @include display-type(flex, center);\n \n     .primary-btn {\n"
+                }
+            ],
+            "date": 1670237515661,
+            "name": "Commit-0",
+            "content": "#home {\n    background-image: url(../assets/taxi-bg.jpg);\n    background-size: 100% 100%;\n    height: 100vh;\n    opacity: .9;\n    @include display-type(flex, space-between, \"\", \"\", column);\n}\n\n\n.book-ride {\n    @include display-type(flex, center);\n\n    .primary-btn {\n        @include primary-btn(10px 35px, 25px 0px, 40px, xxx-large, #ffc107, none);     \n        color:$text-color1;\n\n        &:hover {\n            @include box-shadow;\n        }\n    }\n}"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "sourceFile": "src/scss/_root.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1670236455141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670236463707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,4 +20,6 @@\n     font-size: $fontSize;\n     background-color: $backgroundColor;\n     border: $border;\n }\n+\n+@mixin b\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236470117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,5 @@\n     background-color: $backgroundColor;\n     border: $border;\n }\n \n-@mixin b\n\\ No newline at end of file\n+@mixin box-style()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236484485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,5 @@\n     background-color: $backgroundColor;\n     border: $border;\n }\n \n-@mixin box-style()\n\\ No newline at end of file\n+@mixin box-style($padding, $margin, $borderRadius, $, $backgroundColor, $border)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236489952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,5 @@\n     background-color: $backgroundColor;\n     border: $border;\n }\n \n-@mixin box-style($padding, $margin, $borderRadius, $, $backgroundColor, $border)\n\\ No newline at end of file\n+@mixin box-style($padding, $margin, $borderRadius, $border)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236495853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,5 @@\n     background-color: $backgroundColor;\n     border: $border;\n }\n \n-@mixin box-style($padding, $margin, $borderRadius, $border)\n\\ No newline at end of file\n+@mixin box-style($padding, $margin, $border)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236501480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,5 @@\n     background-color: $backgroundColor;\n     border: $border;\n }\n \n-@mixin box-style($padding, $margin, $border)\n\\ No newline at end of file\n+@mixin box-style($padding, $margin, $border, $borderRadius) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236507129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,7 @@\n     background-color: $backgroundColor;\n     border: $border;\n }\n \n-@mixin box-style($padding, $margin, $border, $borderRadius) \n\\ No newline at end of file\n+@mixin box-style($padding, $margin, $border, $borderRadius) {\n+    pa\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236513472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n     border: $border;\n }\n \n @mixin box-style($padding, $margin, $border, $borderRadius) {\n-    pa\n+    padding: $p\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236513530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n     border: $border;\n }\n \n @mixin box-style($padding, $margin, $border, $borderRadius) {\n-    padding: $p\n+    padding: $pa\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236518874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,7 @@\n     border: $border;\n }\n \n @mixin box-style($padding, $margin, $border, $borderRadius) {\n-    padding: $pa\n+    padding: $padding;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236529196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,8 @@\n }\n \n @mixin box-style($padding, $margin, $border, $borderRadius) {\n     padding: $padding;\n-    \n+    margin: $margin;\n+    border-radius: $borderRadius;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670236535299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,8 @@\n \n @mixin box-style($padding, $margin, $border, $borderRadius) {\n     padding: $padding;\n     margin: $margin;\n+    border: $;\n     border-radius: $borderRadius;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670237033577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,7 @@\n \n @mixin box-style($padding, $margin, $border, $borderRadius) {\n     padding: $padding;\n     margin: $margin;\n-    border: $;\n+    border: $border;\n     border-radius: $borderRadius;\n-\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1670237041434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,5 @@\n     border: $border;\n     border-radius: $borderRadius;\n }\n \n-@mixin i\n\\ No newline at end of file\n+@mixin in\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670237051474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,5 @@\n     border: $border;\n     border-radius: $borderRadius;\n }\n \n-@mixin input-spin-b\n\\ No newline at end of file\n+@mixin input-spin-bu\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670236455141,
+            "name": "Commit-0",
+            "content": "@mixin display-type ($displayContent, $justify, $alignContent: null, $alignItems: null, $flexDirection: null) {\n    display: $displayContent;\n    justify-content: $justify;\n    align-content: $alignContent;\n    align-items: $alignItems;\n    flex-direction: $flexDirection;\n}\n\n@mixin box-shadow {\n    -webkit-box-shadow: 0px 2px 10px 1px rgba(226, 211, 4, 1);\n    -moz-box-shadow: 0px 2px 10px 1px rgba(226, 211, 4, 1);\n    box-shadow: 0px 2px 10px 1px rgb(226, 211, 4);\n}\n\n@mixin primary-btn ($padding, $margin, $borderRadius, $fontSize, $backgroundColor, $border) {\n    padding: $padding;\n    font-size: xxx-large;\n    margin: $margin;\n    border-radius: $borderRadius;\n    font-size: $fontSize;\n    background-color: $backgroundColor;\n    border: $border;\n}\n"
+        }
+    ]
+}
