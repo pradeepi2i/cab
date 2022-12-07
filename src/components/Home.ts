@@ -1,5 +1,6 @@
 import {Header} from '../components/Header'
 import {Content} from '../components/Content'
+import { getElementById, getQuerySelector} from '../components/Utils'
 
 export class Home {
     header: Header;
@@ -8,6 +9,7 @@ export class Home {
     constructor(container:Element) {
         this.home = container
         this.renderHome();
+        this.createEventListener();
     }
 
     renderHome() {
@@ -15,11 +17,19 @@ export class Home {
         <div id="navbar" class = "navbar">    
         </div>    
         <div id="content" class = "container"></div>`
-        console.log("Home" , this.home);
-        const navbar = this.home.querySelector("#navbar");
-        this.header = new Header(navbar);
 
-        const content = this.home.querySelector("#content");
+        const navbar = getQuerySelector("#navbar");
+        this.header = new Header(navbar);
+        const content = getQuerySelector("#content");
         this.content = new Content(content);
     }
+
+    createEventListener() {
+        getElementById("start").addEventListener("click", () => {
+            this.redirect("ride.html");
+        });
+    }
+
+    redirect = (url: string, asLink = true) =>
+    asLink ? (window.location.href = url) : window.location.replace(url);
 }

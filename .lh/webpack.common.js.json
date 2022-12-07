@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 31,
             "patches": [
                 {
                     "date": 1670234406650,
@@ -120,6 +120,18 @@
                 {
                     "date": 1670316991682,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html',\n+      filename: 'index.html'\n     }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html',\n"
+                },
+                {
+                    "date": 1670395981795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n     new HtmlWebpackPlugin({\n       template: './src/html/register.html',\n       filename:'register.html'\n     }),\n+    \n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n       patterns: [{ from: './src/assets', to: 'assets' }]\n"
+                },
+                {
+                    "date": 1670395989451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/ride.html',\n-      filename:'r.html'\n+      filename:'ri.html'\n     }),\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n"
+                },
+                {
+                    "date": 1670395989707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/ride.html',\n-      filename:'ri.html'\n+      filename:'ride.html'\n     }),\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n"
                 }
             ],
             "date": 1670234406650,

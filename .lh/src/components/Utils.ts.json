@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/components/Utils.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1670394527819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670394533232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-getElementById(idName:string) {\n+functgetElementById(idName:string) {\n     return document.getElementById(idName);\n }\n \n getQuerySelector(selector:string) {\n"
+                },
+                {
+                    "date": 1670394539378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-functgetElementById(idName:string) {\n+function getElementById(idName:string) {\n     return document.getElementById(idName);\n }\n \n-getQuerySelector(selector:string) {\n+fgetQuerySelector(selector:string) {\n     return document.querySelector(selector);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670394539693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n function getElementById(idName:string) {\n     return document.getElementById(idName);\n }\n \n-fugetQuerySelector(selector:string) {\n+fungetQuerySelector(selector:string) {\n     return document.querySelector(selector);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670394547744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-exfunction getElementById(idName:string) {\n+expfunction getElementById(idName:string) {\n     return document.getElementById(idName);\n }\n \n export function getQuerySelector(selector:string) {\n"
+                }
+            ],
+            "date": 1670394527819,
+            "name": "Commit-0",
+            "content": "getElementById(idName:string) {\n    return document.getElementById(idName);\n}\n\ngetQuerySelector(selector:string) {\n    return document.querySelector(selector);\n}"
+        }
+    ]
+}

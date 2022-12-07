@@ -76,6 +76,11 @@ module.exports = {
       filename:'register.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/html/ride.html',
+      filename:'ride.html'
+    }),
+
     new ForkTsCheckerWebpackPlugin(),
     new CopyPlugin({
       patterns: [{ from: './src/assets', to: 'assets' }]

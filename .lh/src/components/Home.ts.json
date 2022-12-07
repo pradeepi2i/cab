@@ -3,11 +3,27 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1670310720126,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670394432093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     home:Element;\n     constructor(container:Element) {\n         this.home = container\n         this.renderHome();\n+        \n     }\n \n     renderHome() {\n         this.home.innerHTML = `\n"
+                },
+                {
+                    "date": 1670394438845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     home:Element;\n     constructor(container:Element) {\n         this.home = container\n         this.renderHome();\n-        \n+        this.createEventListener()\n     }\n \n     renderHome() {\n         this.home.innerHTML = `\n"
+                },
+                {
+                    "date": 1670394446859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n         const content = this.home.querySelector(\"#content\");\n         this.content = new Content(content);\n     }\n \n-    cre\n+    crea\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670394448296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n         const content = this.home.querySelector(\"#content\");\n         this.content = new Content(content);\n     }\n \n-    crea\n+    createE\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1670310720126,

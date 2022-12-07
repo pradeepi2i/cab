@@ -9,7 +9,7 @@ export class Content {
     renderContent() {
         this.content.innerHTML = `        
             <div class="book-ride">
-                <button class="primary-btn">Book Ride</button>
+                <button class="primary-btn" id="start">Let's get Started</button>
             </div>`;
     }
 }
