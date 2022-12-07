@@ -6,9 +6,13 @@
 @import './home';
 @import'./register';
 
+
+
 @include input-spin-button(none);
 
 body {
+    background-image: url(../assets/taxi-bg.jpg);
+    background-size: 100% 100%;
     margin: 0px;
 
     button {
@@ -25,9 +29,9 @@ body {
     
 }
 
-.secondary-btn {
+/* .secondary-btn {
     
-}
+} */
 
 
 

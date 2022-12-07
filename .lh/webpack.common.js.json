@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1670234406650,
@@ -60,6 +60,66 @@
                 {
                     "date": 1670301696625,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,12 +62,14 @@\n     new CleanWebpackPlugin(),\n     /* \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html'\n-    }), *//* \n+    }), */\n+    /* \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n     }), */\n+    \n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n       patterns: [{ from: './src/assets', to: 'assets' }]\n"
+                },
+                {
+                    "date": 1670316052270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,14 +63,17 @@\n     /* \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html'\n     }), */\n-    /* \n+    \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n-    }), */\n-    \n+    }),\n \n+    new HtmlWebpackPlugin({\n+      template: './src/html/register.html'\n+    }),\n+\n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n       patterns: [{ from: './src/assets', to: 'assets' }]\n     }),\n"
+                },
+                {
+                    "date": 1670316061036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,12 +59,12 @@\n       filename: '[name].[contenthash].css',\n       chunkFilename: '[id].css'\n     }),\n     new CleanWebpackPlugin(),\n-    /* \n+    \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html'\n-    }), */\n+    }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n     }),\n"
+                },
+                {
+                    "date": 1670316301476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,16 +63,16 @@\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html'\n     }),\n-    \n+    /* \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html'\n-    }),\n+    }), */\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n       patterns: [{ from: './src/assets', to: 'assets' }]\n"
+                },
+                {
+                    "date": 1670316492310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n     }),\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n-      template: './src/html/index.html'\n+      template: './src/html/h.html'\n     }),\n     /* \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n"
+                },
+                {
+                    "date": 1670316492421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n     }),\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n-      template: './src/html/h.html'\n+      template: './src/html/ho.html'\n     }),\n     /* \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n"
+                },
+                {
+                    "date": 1670316505342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,10 +61,10 @@\n     }),\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n-      template: './src/html/ho.html'\n-    }),\n+      template: './src/html/index.html'\n+    })\n     /* \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n     }),\n"
+                },
+                {
+                    "date": 1670316511088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html'\n-    })\n+    }),\n     /* \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n     }),\n"
+                },
+                {
+                    "date": 1670316933445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,16 +63,16 @@\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html'\n     }),\n-    /* \n+    \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html'\n-    }), */\n+    }),\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n       patterns: [{ from: './src/assets', to: 'assets' }]\n"
+                },
+                {
+                    "date": 1670316955010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,8 +66,9 @@\n     }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n+      \n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html'\n"
+                },
+                {
+                    "date": 1670316960805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n-      \n+      filename:\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html'\n"
+                },
+                {
+                    "date": 1670316966882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,13 +66,14 @@\n     }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html'\n-      filename:\n+      filename:'login.html'\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html'\n+      \n     }),\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n"
+                },
+                {
+                    "date": 1670316973081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,15 +65,15 @@\n       template: './src/html/index.html'\n     }),\n     \n     new HtmlWebpackPlugin({\n-      template: './src/html/login.html'\n+      template: './src/html/login.html',\n       filename:'login.html'\n     }),\n \n     new HtmlWebpackPlugin({\n-      template: './src/html/register.html'\n-      \n+      template: './src/html/register.html',\n+\n     }),\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n"
+                },
+                {
+                    "date": 1670316979449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,8 +71,9 @@\n     }),\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html',\n+      filename:'register.html'\n \n     }),\n \n     new ForkTsCheckerWebpackPlugin(),\n"
+                },
+                {
+                    "date": 1670316985051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n     }),\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n-      template: './src/html/index.html'\n+      template: './src/html/index.html',\n     }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html',\n@@ -72,9 +72,8 @@\n \n     new HtmlWebpackPlugin({\n       template: './src/html/register.html',\n       filename:'register.html'\n-\n     }),\n \n     new ForkTsCheckerWebpackPlugin(),\n     new CopyPlugin({\n"
+                },
+                {
+                    "date": 1670316991682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n     new CleanWebpackPlugin(),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/index.html',\n+      filename: 'index.html'\n     }),\n     \n     new HtmlWebpackPlugin({\n       template: './src/html/login.html',\n"
                 }
             ],
             "date": 1670234406650,

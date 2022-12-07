@@ -1,20 +1,29 @@
 
 #register {
-    @include display-type(flex, center, "", center);
+     @include display-type(flex, center, "", center);
     height: 100vh;
 
     .input-registration {
         @include box-style(0px $sm, 0px 5px, none, 5px);
         font-size: 2*$sm;
         border-bottom: 1px solid #8a0080;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
         background: aliceblue;
+    }
+
+
+    #mobileNumber {
+        width: 110px;
+    }
+    
+     #country-code{
+        padding: 0px;
     }
 
     .popup {
         @include box-style($sm, 5px, 1px solid $darkgrey, 5px);
         @include box-shadow(10px 18px 21px -7px  rgba(14, 14, 14, 1));
+        background: #030110;
+        opacity: .9;
     }
 
     .input-fields {
@@ -47,6 +56,8 @@
     .confirm {
         @include display-type(flex, space-between);
     }
+
+    
 }
 
 

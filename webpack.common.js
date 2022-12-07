@@ -60,17 +60,20 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new CleanWebpackPlugin(),
-    /* 
+    
     new HtmlWebpackPlugin({
-      template: './src/html/index.html'
-    }), */
-    /* 
+      template: './src/html/index.html',
+      filename: 'index.html'
+    }),
+    
     new HtmlWebpackPlugin({
-      template: './src/html/login.html'
-    }), */
+      template: './src/html/login.html',
+      filename:'login.html'
+    }),
 
     new HtmlWebpackPlugin({
-      template: './src/html/register.html'
+      template: './src/html/register.html',
+      filename:'register.html'
     }),
 
     new ForkTsCheckerWebpackPlugin(),
