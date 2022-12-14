@@ -1,0 +1,117 @@
+#ride {
+  height: 100vh;
+  @include display-type(flex, space-between, "", "", column);
+
+  #rideInfo {
+    height: calc(100vh - 80px);
+    @include display-type(flex, center, "", center);
+
+    form#rideForm {
+      @include display-type(flex, space-evenly, "", center, column);
+
+      .location-section {
+        .location-details {
+          @include display-type(flex, center);
+          @include box-style(5px, 15px 20px, none);
+
+          input {
+            @include box-style(10px 10px 0px 20px, none, none, 10px);
+            font-size: $xx-lg;
+            background: #f1efef;
+            border-bottom: 1px solid white;
+          }
+        }
+      }
+
+      .categories {
+        @include display-type(flex, center);
+        @include box-style(20px, 20px, none);
+
+        .categories-list {
+          width: 80vw;
+          overflow-x: scroll;
+
+          #category {
+            @include display-type(flex, flex-start, "", center);
+            height: 25rem;
+            padding-inline: 10px;
+
+            .cab-content {
+              @include display-type(flex, "", "", "", column);
+              @include box-style(5px, 15px, none, 10px);
+              background-color: $secondary-color;
+
+              &:hover {
+                @include box-shadow(0px 0px 6px 12px rgb(14, 14, 14));
+                @include animation(scale(1.1), 0.3s);
+              }
+
+              .select {
+                @include display-type(flex, flex-end);
+
+                input[type="radio"] {
+                  height: 25px;
+                  width: 25px;
+                  margin-inline: 10px;
+                }
+              }
+
+              .data {
+                @include display-type(flex, space-between);
+                @include box-style(10px, 5px, none);
+                font-size: 32px;
+                color: $priamry-text-color;
+
+                p {
+                  margin-block: 25px;
+                }
+
+                .info {
+                  width: 150px;
+                }
+
+                .value {
+                  text-align: center;
+                }
+              }
+            }
+
+            &:hover > :not(:hover) {
+              //filter: blur(3px);
+              opacity: 0.8;
+            }
+          }
+
+          &::-webkit-scrollbar {
+            height: 10px;
+
+            &-track {
+              background-color: $primary-color;
+              border-radius: 10px;
+            }
+
+            &-thumb {
+              background-color: $purple;
+              border-radius: 10px;
+              border: 2px solid $primary-color;
+            }
+          }
+        }
+      }
+
+      #submit {
+        @include box-style(10px 20px, 10px, none 5px);
+        font-size: $xxx-lg;
+        background: $primary-color;
+
+        &:hover {
+          @include animation(scale(1.2), 0.2s);
+        }
+      }
+    }
+
+    #rideDetails {
+      display: none;
+    }
+  }
+}

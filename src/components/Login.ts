@@ -1,3 +1,4 @@
+//import { getQuerySelector } from "./Utils";
 export class Login {
     login: Element;
     submit: HTMLElement;
@@ -16,7 +17,8 @@ export class Login {
     }
 
     renderLogin() {
-        this.login.innerHTML = `<div class="login-section">
+        this.login.innerHTML = `
+        <div class="login-section">
         <form method="post" name="login" class="login-form" id="loginForm">
             <div class="login-details">
                 <label for="mobileNumber">Username : </label>
@@ -32,7 +34,7 @@ export class Login {
                 <input type="submit" name="submit" value="Login" id="submit">
             </div>
         </form>
-    </div>`
+    </div>`;
     }
 
     createEventListener() {
@@ -92,6 +94,8 @@ export class Login {
             body: JSON.stringify(formDataObject),
             redirect: 'follow'
         };
+        
+        
 
         fetch("http://localhost:8082/login", requestOptions)
             .then(response => response.json())
@@ -100,12 +104,12 @@ export class Login {
                 if (200 === result.status) {
                     console.log("OK");
 
-
                 } else if (500 === result.status) {
                     alert("Invalid credentials");
                 }
             })
             .catch(error => console.log('error', error));
+            
     }
 
     callEventListener(element: HTMLInputElement, pattern: string) {

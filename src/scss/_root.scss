@@ -6,7 +6,7 @@
     flex-direction: $flexDirection;
 }
 
-@mixin box-shadow ($shadow){
+@mixin box-shadow ($shadow) {
     -webkit-box-shadow: $shadow;
     -moz-box-shadow: $shadow;
     box-shadow: $shadow;
@@ -44,4 +44,9 @@
     input::-webkit-inner-spin-button {
         appearance: $appearance;        
     }
+}
+
+@mixin animation ($transform, $transition) {
+    transform: $transform;
+    transition: $transition;
 }

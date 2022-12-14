@@ -8,7 +8,7 @@ export class Content {
 
     renderContent() {
         this.content.innerHTML = `        
-            <div class="book-ride">
+            <div class="home-bottom-btn">
                 <button class="primary-btn" id="start">Let's get Started</button>
             </div>`;
     }

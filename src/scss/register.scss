@@ -30,7 +30,7 @@ body {
     }
 
     .input-fields {
-        font-size: $x-lg;
+        font-size: $xx-lg;
         margin-block: $sm;
 
         :focus {
@@ -48,8 +48,8 @@ body {
     }
 
     .secondary-btn {
-        @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $purple, none);
-        color: $text-color1;
+        @include secondary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, x-large, $primary-color, none);
+        color: $secondary-text-color;
     
         &:hover {
             @include box-shadow(0px 0px 1px 4px rgba(130, 23, 109, 1));
