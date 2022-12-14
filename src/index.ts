@@ -1,7 +1,7 @@
 import './scss/styles.scss';
 
 import { Home } from './components/Home';
-import { Login } from './components/Login';
+//import { Login } from './components/Login';
 import { Register } from './components/Register';
 
 import { getQuerySelector } from './components/Utils';
@@ -14,11 +14,11 @@ if (homeContainer) {
 }
 
 
-const loginContainer: Element = getQuerySelector("#login");
+// const loginContainer: Element = getQuerySelector("#login");
 
-if (loginContainer) {
-    new Login(loginContainer); 
-}
+// if (loginContainer) {
+//     new Login(loginContainer); 
+// }
 const registerContainer: Element = getQuerySelector("#register");
 
 if(registerContainer) {

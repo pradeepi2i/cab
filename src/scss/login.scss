@@ -1,19 +1,14 @@
-/* @import 'variable';
-@import 'root'; */
 
 body {
-    
-        background-image: url(../assets/taxi-bg.jpg);
-        background-size: 100% 100%;    
-    color: $text-color1;
+    color: $secondary-text-color;
 }
 
 #login {
-    @include display-type(flex, center, "", center);
+    @include display-type(flex, flex-end, "", center);
     height: 100vh;
 
     .login-section {
-        @include box-style(3*$sm $sm $sm, $sm, 1px solid $darkgrey, $sm);
+        @include box-style(3*$sm $sm $sm, 3*$sm, 1px solid $darkgrey, $sm);
         @include box-shadow(10px 18px 21px -7px rgba(14, 14, 14, 1));
         background: #030110;
         opacity: .9;
@@ -24,12 +19,10 @@ body {
             font-size: $xx-lg;
 
             .input {
-                @include box-style(0px 0px 0px 10px, 0px 0px 0px 5px, 1px solid $purple);
+                @include box-style(0px 0px 0px 10px, 0px 0px 0px 5px, 1px solid $purple, 5px);
                 font-size: $x-lg;
-                border-bottom: 3px solid $purple;
-                border-bottom-left-radius: $sm;
-                border-top-right-radius: $sm;
-                background-color: $text-color1;
+                border-bottom: 3px solid $primary-color;
+                background-color: $secondary-text-color;
 
             }
 
@@ -43,15 +36,15 @@ body {
                 margin: 0px;
                 
                 a {
-                    color: $purple;
+                    color: $primary-color   ;
                     text-decoration: none;
                 }
             }
 
             #submit {
-                @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $purple, none);
-                border-bottom: 5px solid $purple-dark;
-                color: $text-color1;
+                @include primary-btn(5px 2*$sm, 2*$sm 0px 0px, 5px, xx-large, $primary-color, none);
+                border-bottom: 5px solid $primary-color;
+                color: $secondary-text-color;
 
                 &:hover {
                     @include box-shadow(0px 0px 6px 8px rgba(130, 23, 109, 1));

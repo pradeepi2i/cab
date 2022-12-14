@@ -1,9 +1,11 @@
 import {Header} from '../components/Header'
 import {Content} from '../components/Content'
 import { getElementById, getQuerySelector} from '../components/Utils'
+import { Login } from './Login';
 
 export class Home {
     header: Header;
+    login: Login;
     content:Content;
     home:Element;
     constructor(container:Element) {
@@ -12,16 +14,14 @@ export class Home {
         this.createEventListener();
     }
 
-    renderHome() {
+    renderHome(): void {
         this.home.innerHTML = `
-        <div id="navbar" class = "navbar">    
-        </div>    
+        <div id="navbar" class = "navbar"></div>    
+        <div id="login"></div>
         <div id="content" class = "container"></div>`
-
-        const navbar = getQuerySelector("#navbar");
-        this.header = new Header(navbar);
-        const content = getQuerySelector("#content");
-        this.content = new Content(content);
+        this.header = new Header(getQuerySelector("#navbar"));
+        this.content = new Content(getQuerySelector("#content"));
+        this.login = new Login (getQuerySelector("#login"))
     }
 
     createEventListener() {
